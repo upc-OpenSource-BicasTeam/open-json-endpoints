@@ -1,0 +1,137 @@
+{
+    "users": [
+        {
+            "id": "1",
+            "name": "Peter",
+            "lastName": "Castle",
+            "email": "admin",
+            "password": "admin",
+            "type": "businessman",
+            "vehicles": [
+                {
+                    "idVehicle": "1"
+                },
+                {
+                    "idVehicle": "2"
+                }
+            ]
+        },
+        {
+            "id": "2",
+            "name": "Alan",
+            "lastName": "Garcia",
+            "email": "admin1",
+            "password": "admin1",
+            "type": "carrier",
+            "vehicles": [
+                {
+                    "idVehicle": "2"
+                }
+            ]
+        },
+        {
+            "id": "3",
+            "name": "Maria Elena",
+            "lastName": "Moyano",
+            "email": "admin2",
+            "password": "admin2",
+            "type": "carrier",
+            "vehicles": [
+                {
+                    "idVehicle": "1"
+                }
+            ]
+        }
+    ],
+    "reports": [
+        {
+            "id": 1,
+            "id-user": "2",
+            "type": "infringement",
+            "description": "Speeding violation, I was going 156km/h",
+            "dateTime": {
+                "date": "2024-03-10",
+                "time": "10:25:00"
+            }
+        },
+        {
+            "id": 2,
+            "id-user": "2",
+            "type": "accident",
+            "description": "expressway closed for works",
+            "dateTime": {
+                "date": "2024-03-27",
+                "time": "13:40:00"
+            }
+        },
+        {
+            "id": 3,
+            "id-user": "3",
+            "type": "shipment",
+            "description": "a dog ate the package",
+            "dateTime": {
+                "date": "2024-04-05",
+                "time": "09:55:00"
+            }
+        },
+        {
+            "id": 4,
+            "id-user": "3",
+            "type": "technical",
+            "description": "I put cooking oil in the car and it doesn't start",
+            "dateTime": {
+                "date": "2024-04-15",
+                "time": "15:55:49"
+            }
+        }
+    ],
+    "vehicle": [
+        {
+            "id": 1,
+            "licensePlate": "AAA-321",
+            "model": "Chevrolet Corvette",
+            "serialNumber": "IO547SMX"
+        },
+        {
+            "id": 2,
+            "licensePlate": "ABC-123",
+            "model": "KIA Rio",
+            "serialNumber": "RQ9ZRQ49"
+        }
+    ],
+    "shipment": [
+        {
+            "id": 1,
+            "id-user": "2",
+            "destiny": "Callao, Av Pedro espadaro 2568",
+            "description": "The package to be delivered is a 40-inch smart TV.",
+            "dateTime": {
+                "date": "2024-04-25",
+                "time": "10:25:00"
+            },
+            "status": "Programmed"
+        },
+        {
+            "id": 2,
+            "id-user": "2",
+            "destiny": "Villa el salvador, Av.Pastor sevilla 598",
+            "description": "Delivery of a sound system. Be careful when lowering it.",
+            "dateTime": {
+                "date": "2024-04-17",
+                "time": "13:30:00"
+            },
+            "status": "In delivery"
+        },
+        {
+            "id": 3,
+            "id-user": "3",
+            "destiny": "Chorrillos, av. Lavalle  568",
+            "description": "Package with hardware elements for a gamer pc.",
+            "dateTime": {
+                "date": "2024-03-18",
+                "time": "15:45:00"
+            },
+            "status": "Delivered"
+        }
+    ]
+}
