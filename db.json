@@ -102,7 +102,7 @@
     "shipment": [
         {
             "id": 1,
-            "id-user": "2",
+            "idUser": "2",
             "destiny": "Callao, Av Pedro espadaro 2568",
             "description": "The package to be delivered is a 40-inch smart TV.",
             "dateTime": {
@@ -113,7 +113,7 @@
         },
         {
             "id": 2,
-            "id-user": "2",
+            "idUser": "2",
             "destiny": "Villa el salvador, Av.Pastor sevilla 598",
             "description": "Delivery of a sound system. Be careful when lowering it.",
             "dateTime": {
@@ -124,7 +124,7 @@
         },
         {
             "id": 3,
-            "id-user": "3",
+            "idUser": "3",
             "destiny": "Chorrillos, av. Lavalle  568",
             "description": "Package with hardware elements for a gamer pc.",
             "dateTime": {
