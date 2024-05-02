@@ -46,7 +46,7 @@
     "reports": [
         {
             "id": 1,
-            "id-user": "2",
+            "idUser": "2",
             "type": "infringement",
             "description": "Speeding violation, I was going 156km/h",
             "dateTime": {
@@ -56,7 +56,7 @@
         },
         {
             "id": 2,
-            "id-user": "2",
+            "idUser": "2",
             "type": "accident",
             "description": "expressway closed for works",
             "dateTime": {
@@ -66,7 +66,7 @@
         },
         {
             "id": 3,
-            "id-user": "3",
+            "idUser": "3",
             "type": "shipment",
             "description": "a dog ate the package",
             "dateTime": {
@@ -76,7 +76,7 @@
         },
         {
             "id": 4,
-            "id-user": "3",
+            "idUser": "3",
             "type": "technical",
             "description": "I put cooking oil in the car and it doesn't start",
             "dateTime": {
